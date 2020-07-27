@@ -21,3 +21,19 @@ sudo yarn add global jest
 * Looks for __.test.js__ or __.test.ts__ or __.spec.ts__ or __.spec.js__ files
 
 
+### react
+
+* create-react-app
+* jest is included
+* DOM, Virtual DOM
+* jest does not support DOM testing, or Virtual DOM testing
+
+* For DOM testing you need to add __@testing-library/react__
+* You can test for UI, but not state, props
+
+* For Virtual DOM testing you need to add __enzyme__
+* You can test UI, state, props, components
+
+* __sudo yarn add global create-react-app__
+* __sudo npm install -g create-react-app__
+* __sudo yarn add --dev enzyme jest-enzyme enzyme-adapter-react-16__
