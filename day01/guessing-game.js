@@ -20,6 +20,12 @@ class GuessingGame {
             this.gameOver = true;
         }
     }
+    reset() {
+        this.target = 0;
+        this.attempts = 0;
+        this.message = null;
+        this.gameOver = false;
+    }
 
     checkGameOver() {
         if (this.gameOver) {

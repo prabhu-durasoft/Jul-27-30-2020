@@ -7,7 +7,8 @@ beforeEach(() => {
 });
 
 afterEach(() => {
-    game = null;
+    //game = null;
+    game.reset();
 });
 
 it("should not be null", () => {
