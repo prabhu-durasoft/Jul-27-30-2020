@@ -16,7 +16,9 @@ const instructor = {
 *	Testing libraries
 *	Test Runners
 *	Environment setup
+
 <br/>
+
 *	Jest API Overview
 *	Tests and Suites
 *	Integrating with the Create React
