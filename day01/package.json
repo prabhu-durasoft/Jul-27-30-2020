@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll --coverage"
   },
   "author": "",
   "license": "ISC",
