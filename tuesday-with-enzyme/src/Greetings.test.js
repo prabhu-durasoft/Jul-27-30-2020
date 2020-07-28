@@ -58,3 +58,11 @@ describe("states", () => {
 });
 
 
+
+// In the same component
+// Have another button
+// clicking the button should display a message "Hi ${name}" in another h1
+
+// One textbox, 2 buttons, 2 h1 tags
+
+

@@ -37,3 +37,11 @@ sudo yarn add global jest
 * __sudo yarn add global create-react-app__
 * __sudo npm install -g create-react-app__
 * __sudo yarn add --dev enzyme jest-enzyme enzyme-adapter-react-16__
+
+### Enzyme API
+
+* shallow()
+* find("selector")
+* simulate("event")
+* state("")
+* setState("")
