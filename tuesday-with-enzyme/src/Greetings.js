@@ -29,6 +29,7 @@ export class Greetings extends React.Component {
 
     render() {
         return (<div>
+            
             <input type="text" data-test="name"
                 onChange={this.nameChanged.bind(this)}></input>
             <br/>
