@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 export class Form extends React.Component {
     constructor(props) {
         super(props);
@@ -10,5 +10,4 @@ export class Form extends React.Component {
             <h1>{this.props.name}</h1>
         </div>);
     }
-
 }
