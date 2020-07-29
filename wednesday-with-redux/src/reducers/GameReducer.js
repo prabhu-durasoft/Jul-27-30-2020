@@ -7,7 +7,6 @@ export const GameReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'GAME_PLAY_ACTION':
             let { attempts, message, target } = state; 
-            console.log("**", target);
 
             attempts++;
             let {guess} = action.payload;
