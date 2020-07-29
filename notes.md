@@ -45,3 +45,11 @@ sudo yarn add global jest
 * simulate("event")
 * state("")
 * setState("")
+* Use setTimeout in case of setState()
+* __data-test__ attributes for test 
+* Remove these attributes using __babel-plugin-react-remove-properties__
+
+### Redux
+
+* __sudo yarn add redux react-redux__
+
