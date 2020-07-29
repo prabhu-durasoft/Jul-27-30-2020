@@ -15,3 +15,9 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(GuessingGameComponent);
+/**
+ *   <ContextProvider value={{...}}>
+      <GuessingGameComponent store={{...}} attempts={0} message="" play={[Function: play]} />
+    </ContextProvider>
+ * 
+ */
