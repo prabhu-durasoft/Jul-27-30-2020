@@ -72,3 +72,5 @@ sudo yarn add global jest
 * You spy on a real object
 * __jest.spyOn("realobject", "methodName");__
 * Use toHaveBeenCalled, toHaveBeenCalledTimes etc
+
+* sudo yarn add axios
