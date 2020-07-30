@@ -11,6 +11,7 @@ it("1", () => {
     const wrapper = mount(<HelloWithReduxThunkContainer store={store}/>); 
     expect(wrapper).toBeTruthy();
 });
+
 it("2", () => {
     const spy = jest.spyOn(axios, 'get')
     axios.get.mockImplementationOnce(() => Promise.resolve("Data from server"));

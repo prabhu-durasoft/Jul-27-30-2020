@@ -75,3 +75,37 @@ sudo yarn add global jest
 
 * sudo yarn add axios
 * __jest.spyOn(axios, "get")__
+
+### Function components
+
+* Enzyme does not support react hooks
+* Cannot call state, setState, useEffect
+* Use mount and not shallow
+
+
+* Or use Jest React testing library
+
+### Enzyme vs @testing-library
+
+* Shallow Testing
+* simulate()
+* component.find("selector)
+* test state and props
+* has to be installed separately
+* Does not support Snapshot testing
+* No suport for react hooks
+
+* Full DOM testing
+* fireEvent
+* getByText, getByPlaceholderText ...etc 
+* cannot test state and props
+* Automatically comes with the create-react-app
+* Supports Snapshot testing
+* Used to test function components
+
+
+### Snapshot testing
+
+* Creates the DOM structure and stores in a file as a snapshot
+* runs the tests for components and compares them with the snapshot
+* __sudo yarn add --dev react-test-renderer__

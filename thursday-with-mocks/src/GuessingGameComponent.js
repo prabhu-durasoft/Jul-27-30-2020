@@ -21,7 +21,7 @@ export class GuessingGameComponent extends React.Component {
     render() {
         const {message, attempts} = this.state.game;
         return (<div>
-            <input type="text" placeholder="Enter your guess" onChange={this.guessChanged.bind(this)}></input>
+            <input type="text" placeholder="Enter yourr guess" onChange={this.guessChanged.bind(this)}></input>
             <br/>
             <button onClick={this.guessButtonClicked.bind(this)}>Guess</button>
             <h1 data-test="message">{message == null ? '' : message }</h1>
