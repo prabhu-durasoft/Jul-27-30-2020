@@ -63,3 +63,12 @@ sudo yarn add global jest
 * __Containers__
 * Use mount, find, simulate and expect
 * If s**t happens, then you think of mocking
+
+* Create mock manually using a simple JSON object
+* Mock functions using __jest.fn()__
+* Use toHaveBeenCalled, toHaveBeenCalledTimes etc
+
+* OR
+* You spy on a real object
+* __jest.spyOn("realobject", "methodName");__
+* Use toHaveBeenCalled, toHaveBeenCalledTimes etc
