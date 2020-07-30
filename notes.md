@@ -66,7 +66,7 @@ sudo yarn add global jest
 
 * Create mock manually using a simple JSON object
 * Mock functions using __jest.fn()__
-* Use toHaveBeenCalled, toHaveBeenCalledTimes etc
+* Use toHaveBeenCalled, toHaveBeenCalledTimes, mockReturnValueOnce etc
 
 * OR
 * You spy on a real object
