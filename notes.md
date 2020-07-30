@@ -53,3 +53,13 @@ sudo yarn add global jest
 
 * __sudo yarn add redux react-redux__
 
+### Mocking
+
+* sudo yarn add --dev redux-mock-store
+
+* __Components__
+* Use shallow, find, simulate and expect
+
+* __Containers__
+* Use mount, find, simulate and expect
+* If s**t happens, then you think of mocking
