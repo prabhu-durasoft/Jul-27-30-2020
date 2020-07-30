@@ -18,4 +18,5 @@ it("should have data set", () => {
         const h1 = component.find("h1");
         expect(h1.text()).toBe("Data from server");
     }, 1);
+    expect(spy).toHaveBeenCalled();
 });
